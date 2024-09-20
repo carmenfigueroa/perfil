@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<!--
+  Creado por: Kevin J. Figueroa M
+  Septiembre 20 de 2024
+  Demostración
+-->
+<head>
+<title>Carmen Figueroa</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Tangerine">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Favicons -->
+<link href="https://lh3.googleusercontent.com/pw/AP1GczPW73q86yD-q34WnHPgH2acAmto7OdsBtYEmFdUKcug_HVYOXGjAi3tHyeHnWDuZx1Y_XM5ocr1bLj8q1voyBzDNBW8U9Obo_FcIHNOz4y8o7nORq65VpPaLU4mWR3U5LGBFPKdlFikL3-a1NqqVEsp=w30-h20-s-no-gm" rel="icon">
+
+<!-- OpenGraph -->
+<meta property='og:title' content='Visita mi Pagina'/>
+<meta property='og:image' itemprop="image" content='https://lh3.googleusercontent.com/pw/AP1GczOm-QtYL7uJMmRw1K_hXLyuv0UKyhLBXGSH4daZUYliTJIk4mnJl18C9sJ1yCOXYInPgmDZFflkO1vbEyyIS5rRvm29qIiDuWAUMiu8vU6XSq3xn4834q-EqIVLQmvgwNNn4DSDx-V16pcJEKY2GLzs=w1285-h727-s-no-gm'/>
+<meta property='og:description' content='Carmen Figueroa; Estilista Profesional del Color y Cortes Avanzados'/>
+<meta property='og:url' content='https://kjfigueroa.github.io/kevin/eng/profile.html'/>
+<meta property="og:type" content="website" />
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #593300;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('https://lh3.googleusercontent.com/pw/AP1GczOSkckVnZp60DA8OR-PBLNB3lkoQeK84yT4jV6gcYBvq7mGnvzjUz-cYrVUxfHhOR0ejSPa8dIkKjrRi8m1TcO6nbp3N9nAX5l1Ra7C3PRtx6cQqeQ4OI0l-kyFA41fopYtuRA0y1q5WPjQKcguxSoQ=w1106-h1106-s-no-gm');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("https://lh3.googleusercontent.com/pw/AP1GczO3Y6KwYlRbzVFO6337XrMnnmuJztVqdOb7XJD00YdmfH9cfakeEJXuPiFXhT42Vcf0sHpcP9GgC8REcMFYWfRFeGKOtJsFrdPyJdyPx3tfRAfcwzFYaLybJpAki109bs698qxufl4BRAekpO6A3cMl=w959-h719-s-no-gm");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("https://lh3.googleusercontent.com/pw/AP1GczNAEEEns3ruar-s-Y051gtx26LIIuUtwHC2-66HU-kS3eNhBQt7Q7iTJy-YXz_FUIIs6bh4AsqOJg12kfdDRjV8XrEWWPKE18JFu3t9-wEVTXtECBe5UyUB7tviiWlhhzAzHeqUmxxKYtVYA2AXtCBE=w539-h556-s-no-gm");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-pale-red w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">Carmen Figueroa</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> Acerca de mi</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Portafolio</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Contacto</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">Acerca de mi</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">Portafolio</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">Contacto</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-pale-red w3-xlarge w3-wide w3-animate-opacity w3-round-large w3-xxlarge" style="font-family: Tangerine;">Mochis Stylos</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center w3-xxxlarge" style="font-family: Tangerine;">Acerca de Mi</h3>
+  <p class="w3-center"><em>Amo el Buen gusto y brindar el mejor estilo</em></p>
+  <p style="text-align: center;">
+    Soy una estilista profesional con especialidad para cortes avanzados para el cabello y una sólida formación y practica en colorimetría capilar. Mi pasión por el estilismo va más allá de la apariencia; Para mí se trata de crear experiencias transformadoras que resalten la belleza única de cada persona.
+  </p>
+  <p style="text-align: center;">
+    A lo largo de mi carrera, he tenido el privilegio de trabajar con una gran ariedad de clientes, desde quienes buscan un cambio sutil hasta aquellos que desean una transformación radical en su look. Me apasiona brindar resultados excepcionales que permitan brillar a mis clientes y les provean de una seguridad radiante.
+  </p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="https://lh3.googleusercontent.com/pw/AP1GczPhoTMgPAi98QPlY8JfrganeSFG5c40mZp60IwtlD5FtIuQcUa2v1tqs52Yuj2R1NiqGqXEiTEQuWRIqHl6muoFM8DTrjKbdqX-7iitj3TeEd-TDUv2mmEFz3lP5ZdDo7fjLFW-s2y64pKrncr1uNa8=w504-h571-s-no-gm" class="w3-round w3-image w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p style="text-align: justify;">
+        Bienvenido a mi sitio web, en mi trabajo cada corte, cada color, cada transformación es una oportunidad para contar una historia. Mi compromiso es hacer que cada uno de mis clientes se sienta como la mejor versión de sí mismo. Me emociona saber que puedo hacerte brillar, estaré siempre lista para crear arte a través del cabello, es mi vocación, y amo lo que hago.
+      </p>
+      <p style="text-align: justify;">
+        En mi portafolio podrás encontrar servicios para:
+      </p>
+      <p style="text-align: justify;">
+      <b>Colorimetría Avanzada</b>: Experiencia en mezcla de colores, correcciones de color y análisis de tonos de piel para proporcionar un servicio personalizado.
+      </p>
+      <p style="text-align: justify;">
+        <b>Cortes Avanzados</b>: Dominio en múltiples técnicas de corte, adaptadas a las tendencias del mercado y a las preferencias individuales de cada cliente.
+      </p>
+      <p style="text-align: justify;">
+        <b>Atención al Cliente</b>: Excelentes habilidades interpersonales que me permiten construir relaciones significativas con mis clientes, comprendiendo sus deseos y necesidades específicas.
+      </p>
+    </div>
+  </div>
+<!--
+  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+  <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-pink w3-center" style="width:90%">90%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-pink w3-center" style="width:85%">85%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-photo"></i>Técnica del Color</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-pink w3-center" style="width:75%">75%</div>
+  </div>
+-->
+
+</div>
+
+<div class="w3-row w3-center w3-pink w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">14+</span><br>
+    Experiencia en el sector
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">55+</span><br>
+    Trabajos realizados
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">89+</span><br>
+    Clientes Felices
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">5+</span><br>
+    Técnicas
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container">
+  <div class="w3-display-middle">
+    <span class="w3-jumbo w3-text-white w3-wide" style="font-family: Tangerine; text-shadow:1px">Portafolio</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center w3-xxxlarge" style="font-family: Tangerine;">Mi Trabajo</h3>
+  <p class="w3-center"><em>
+    Mi meta es seguir creciendo como estilista, explorando nuevas técnicas de colorimetría y cortes avanzados, y brindando a mis clientes un estilo que refleje su personalidad y les haga sentir espectaculares. Aspiro a liderar un equipo de estilistas donde podamos compartir nuestra pasión y creatividad, estableciendo un estándar de excelencia en el mundo del estilismo.
+  </em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+      <div class="w3-col m3">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczNV4Pz7OuGwo1CJG5syBkWIU-qN4z6Hp0iVymfWPlIYj3ttlXE5p_9BJ1s9AasWpFUnAYSt_HCW3JgdIz961KfZH5_BGqT123V-IGnnErcwkpiUDwSgUycGKZm8oFDhQ-a-_NLSbKOBzq7tsrbnWUw=w1106-h1106-s-no-gm" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      </div>
+      <div class="w3-col m3">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczNW6g0cyq4IKNssvQYRVEc_mvargRdRGmDdfT0c4Ki2f7Fi-XrQFVDSYOMnyOiyNHVxch0PlUxCtHjVFRnh1fB_Lc_PEgCFgV_n0-gRIK4-ThU-SROx8crJvoZaT8AP-vd1PFAA-BzupYClVddDDuw=w720-h900-s-no-gm" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      </div>
+      <div class="w3-col m3">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczMmYAA-Kt-u0-mUVTEM2QfDfB1pks7YXde_CufMgJ3-OZlWO6Zpy9aA6D92zEhesBOLMifxzAU7dQLSoe2Ub3QJ0Fam9OEr8Jtruad0T6E_19-y_VhQW2RsDIuTFr52vHiBIatFcaR8-HdF52sdD-4=w885-h1106-s-no-gm" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      </div>
+      <div class="w3-col m3">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczM66bVreAFyU_abKqt6tbm-kRICvRiBqj3t3kVENfZRSxIshKzIsMokOzPZcrT_YimT8CV6X6s4BZuGeIG-Q5qwEoASvUYKjiYbfhBK8JYbgkSXBD5LrjB-fGvJg09G63uwH_d0xJVsG6m0wY1xNOk=w885-h1106-s-no-gm" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      </div>
+      <div class="w3-col m3">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczNYBFugpwQEYRRb2-K0M_Pg-8UlWmV8EkZjXIYFUvFjA_6EvFaDN-HIZ1R2aweYYBO1g6z3Cq7Sojg9VcA31rouXK_qgJwXRFOc8mH7Ndl3jR5dXmCr3vqkPgN9prmr4f9L8mUQlXlzQIN6L-BGNDk=w720-h900-s-no-gm" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      </div>
+      <div class="w3-col m3">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczMAXcROx0IMEQw37W6qDcmbxrF3vQFT5n-5EApV0zHV58L1Z2tNwixNpojeRIzPxiBKzKUmCtD1JtG0Ju25M6C26KTVpxAWSllcXf-Mnfn3arWc-Uk-uzJUn7Ed06VjIOsxV6gEaizvg3axiMSd9p6n=w781-h976-s-no-gm" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      </div>
+      <div class="w3-col m3">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczOk0xHSVobBJXocrOdgh-FkryN9f8efWppAYYQHaCq0QfFV2CIVLedtYC9Pj1zZCsnqX2KoU8EphPf68YEDmZ6LUQqzCE08kYaDeW6bb3-5YJWzD77Fx_IljHYMryivyxlKc9ovGtOGj5NxZVo0zJbp=w720-h708-s-no-gm" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      </div>
+      <div class="w3-col m3">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczNpLpWnxrs5oSzumfPUxqS_APwUD0bqUZznJ5U90MD82mNRmMMzgtuwmD5Nk6LvQmu2VnYlZUkGJzhhynSpFCcQW4jHPgQabuOG0Fq8uNApxBr28VzDgG55bRUJSF4xMCO0_7eHE4pIfZngMW_WXRsf=w622-h1106-s-no-gm" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      </div>
+      <div class="w3-col m3">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczM7-JkO3bsORmMdMZPzUjbcSCHySv-mhCLuDefkNT5vFoKrTtFAvSpGoucoJiS5TB8PQPAXkrw44jMSFLn0MQ8qVRnmR8AuDuc1gjy60tKdhDssN6DUlHfoj-wd-QV-D5otnyGN0nJ1hBSpoV3Qvnfp=w540-h960-s-no-gm" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      </div>
+      <div class="w3-col m3">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczP1LoF_-qHzj0IuS83VRQpuHB9p_OBrTXR-T5uCpq9XSPbvnJGCrTQ94v2WRQHE0awP2R_Zey_rzy_9xV6VyM0XCGphgMjBjSm-1R_CVZQ8t-8O0y9XjyrLC7WuHk096gBYvVQLFHWjFU6uYYP09uBb=w720-h900-s-no-gm" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      </div>
+      <div class="w3-col m3">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczPy8kbO-DyBWdYLZdBYvz8TE4eO390j0IeMp7YUR4OV10qZ8dFPtrkLdFD67prdC1tOl6tFUw6RF-_8psCHsU-smzevhEFevlGA3fQGOObesqD0YgWw8YNr79ExJhHg0ytdGz4RSn8FkvV0cbiR_PBN=w1106-h1106-s-no-gm" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      </div>
+      <div class="w3-col m3">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczPBd7f1_iHqIkiC4wyhl84WeehXynXuEShnCmDQev0FIxWOPCnDuHpO_VYxqAheMGpFF6Jjixc1CfSkURTUK_sYOOY0ljwje6XkHhPAg26rgyN8IFsrcowkV8wl3VxN1FSbidrkMS3-WHeZ4iHHn_ma=w389-h692-s-no-gm" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      </div>
+      <div class="w3-col m3">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczMCwFzymW10Blz4qPfTRv7KhSUj6VW40jr_gh0Ex13MyzPkVG7LB3nNiOJQc90MIf--qjMlsqDVrP7y4X0kXxzhbiQyEp8XSiYuUY1S3YNYpD17hBw9PeBKhel9S7OEQNAukxP45ZEFCDBR68sL_aFL=w1104-h1106-s-no-gm" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      </div>
+      <div class="w3-col m3">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczNtpTQK7BDqEU1bZGFt_d1xGnaBpmaJSKfhuiiH1NHayg13E9zp3jZaetG2I2OA3jkRGbbmlcj0xeEqHakDgksYIrOxjuIqVw_KYKOo60BY3KpuE6JuwoiUNdPSlCKPRQKGH2v1yAxXz9_FFkjzRmNU=w1107-h1106-s-no-gm" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      </div>
+      <div class="w3-col m3">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczOpCUnKgRHXJ0xlYefR2pkOResWV5VnJNqEzzWpQ9lV_xeh_WnxRaREO9OdUJB1g4qalqJy8iFIjZomOq9zYBItckgztTCsJdQavb772H0gQsW-1mcrd_vCU68YlJt3omL2DRsH8-OFoencJRSe23Gx=w1104-h1106-s-no-gm" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+      </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-pale-red" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-pale-red w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container">
+  <div class="w3-display-middle">
+    <span class="w3-jumbo w3-text-white w3-wide" style="font-family: Tangerine; text-shadow:1px">Contacto</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+    <h3 class="w3-center">Donde Trabajo</h3>
+    <p class="w3-center"><em>¡Me encantaría ayudarte a mejorar tu look, dejame saber más de ti, y comentarte como te puedo hacer brillar!</em></p>
+    <iframe class="w3-center" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2595.0877356377637!2d-75.48010663698305!3d10.38775119643125!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62432f6c5bb8f%3A0x1ed1d33a30aa9714!2sBarrio%20de%20Santa%20M%C3%B3nica!5e0!3m2!1ses!2sco!4v1726803745639!5m2!1ses!2sco" style="border:0;width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="w3-row w3-padding-32 w3-section">
+<!--      <div class="w3-col m4 w3-container">
+        <img src="/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
+      </div>
+-->
+      <div class="w3-col m8 w3-panel">
+        <div class="w3-margin-bottom">
+          <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-margin-right"></i> Cartagena de Indias, Santa Mónica<br>
+          <i class="fa fa-phone fa-fw w3-hover-text-black w3-margin-right"></i> Teléfono: 313 635 0881<br>
+          <i class="fa fa-envelope fa-fw w3-hover-text-black w3-margin-right"></i> Email: mochisstylos@gmail.com<br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+<footer class="w3-center w3-pale-red w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/carmenmaria.figueroablanco"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>&nbsp;
+    <a href="https://www.instagram.com/mochistylos16/"><i class="fa fa-instagram w3-hover-opacity"></i></a>&nbsp;
+    <a href="https://wa.me/573136350881"><i class="fa fa-whatsapp w3-hover-opacity"></i></a>&nbsp;
+  </div>
+  <p class="w3-small">Creado por <a href="https://sites.google.com/view/kevin-jessid/yo">Kevin J. Figueroa</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-pink";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-pink", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
