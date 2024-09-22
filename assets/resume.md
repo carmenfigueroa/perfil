@@ -5,14 +5,21 @@
 **Nombre:** [Tu Nombre]
 **Teléfono:** [Tu Teléfono]
 **Correo Electrónico:** [Tu Correo Electrónico]
-**Dirección:** [Tu Dirección]
-**LinkedIn:** [Tu LinkedIn] (opcional)
+**Instagram**
+**TikTok**
 
----
 
 ### **Perfil Profesional**
+-----
 
-Soy una estilista profesional con una sólida formación en colorimetría y una especialidad en cortes avanzados para el cabello. Mi pasión por el estilismo va más allá de la mera apariencia; se trata de crear experiencias transformadoras que resalten la belleza única de cada persona. A lo largo de mi carrera, he tenido el privilegio de trabajar con una variedad de clientes, desde quienes buscan un cambio sutil hasta aquellos que desean una transformación radical. Mi compromiso es brindar resultados excepcionales que hagan brillar a mis clientes y les hagan sentirse seguros y radiantes.
+### Laura Vaneza 6 meses - colorista y cortes avanzados
+### the salon 6 meses - Blowerista y Cortes - Colores planos
+### Capelli 6 años - Integral
+### Monica Cruz 7 añoz - Integral
+### Beauty Station 4 años - Integral
+### Independiente - Integral
+
+Soy una estilista profesional con una sólida formación en colorimetría y una especialidad en cortes avanzados para el cabello. Mi pasión por el estilismo va más allá de la mera apariencia; se trata de crear experiencias transformadoras que resalten la belleza única de cada persona. A lo largo de mi carrera, he tenido el privilegio de trabajar con una variedad de clientes, desde quienes buscan un cambio sutil hasta aquellos que desean una transformación radical. Mi compromiso es brindar resultados    excepcionales que hagan brillar a mis clientes y les hagan sentirse seguros y radiantes.
 
 Soy una estilista profesional con una sólida formación y practica en colorimetría capilar, además de contar con una especialidad para cortes avanzados para el cabello. Mi pasión por el estilismo va más allá de la apariencia; Para mí se trata de crear experiencias transformadoras que resalten la belleza única de cada persona. A lo largo de mi carrera, he tenido el privilegio de trabajar con una gran ariedad de clientes, desde quienes buscan un cambio sutil hasta aquellos que desean una transformación radical en su look. Me apasiona brindar resultados excepcionales que permitan brillar a mis clientes y les provean de una seguridad radiante.
 
@@ -37,6 +44,9 @@ Soy una estilista profesional con una sólida formación y practica en colorimet
 
 ### **Educación**
 
+Universidad de la Belleza Metropolitana - Belleza Integral
+Escuela de belleza Luz Belsy
+Sena Belleza Integral
 **Diplomado en Estilismo y Colorimetría**
 [Nombre de la Institución] – [Ciudad, Estado]
 [Año de Graduación]
@@ -111,17 +121,3 @@ Pero más allá de la tecnología y los desafíos científicos, lo que realmente
 Ayudar es una parte integral de mi misión. Me esfuerzo por compartir mis conocimientos, apoyar a mis compañeros y promover una cultura de colaboración y curiosidad. Creo firmemente que el progreso se logra cuando trabajamos juntos y nos ayudamos mutuamente a superar obstáculos.
 
 En resumen, ser un ingeniero en tecnología interestelar de velocidad warp no solo es genial por la ciencia y la tecnología involucradas, sino también por la oportunidad de contribuir a algo más grande que uno mismo. Es un viaje hacia las estrellas, impulsado por el deseo de explorar, innovar y, sobre todo, ayudar.
-
----
-
-Espero que esta descripción refleje tu pasión y dedicación. ¡Sigue brillando y ayudando a otros en tu increíble viaje interestelar!
-
-
-Soy un entusiasta de la tecnología que busca siempre mejorar su comprensión en los aspectos más innovadores de la misma. Mi trabajo consiste en diseñar, desarrollar y mantener los sistemas de navegación interestelar que permiten a las naves espaciales viajar a velocidades superiores a la luz. Esto no solo es un desafío técnico, sino también una oportunidad para explorar los confines del universo y expandir nuestro conocimiento sobre el cosmos. La tecnología warp es revolucionaria, ya que permite a las naves espaciales deformar el espacio-tiempo para acortar las distancias entre los puntos del universo. Este avance podría transformar la exploración espacial, hacer posible la colonización de planetas lejanos y abrir nuevas fronteras para la humanidad. 
-Pero más allá de la tecnología y los desafíos científicos, lo que realmente me motiva es la posibilidad de ayudar. Desde colaborar con científicos, astronautas, y tías maravillosas expertas en fantasticos looks en peluquería y diseño capilar, hasta inspirar a las nuevas generaciones, mi objetivo es contribuir a un futuro donde la humanidad pueda expandir sus horizontes y alcanzar nuevas metas para su progreso.
-
-Ayudar es una parte integral de mi misión. Me esfuerzo por compartir mis conocimientos, apoyar a mis compañeros y promover una cultura de colaboración y curiosidad. Creo firmemente que el progreso se logra cuando trabajamos juntos y nos ayudamos mutuamente a superar obstáculos.
-
-Soy Kevin J. Figueroa, solo un ingeniero de viajes interestelates a velocidad Warp.
-
-Ciertamente, la anterior descripción refleja mi buen gusto por escribir, espero la hayas disfrutado &#x1F60E;
